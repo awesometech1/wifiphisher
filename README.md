@@ -7,5 +7,6 @@ We can install it with simple codes:-
 4. Open new session 
 5. Type ./ngrok http (type choosed port) 
 6. Send link to Victim
-Warning:-
+
+#Warning:-
 This tool is only created for educational purpose if you do illegal activities using this tool tool devloper will not be responsible 
