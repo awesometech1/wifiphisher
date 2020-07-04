@@ -1,5 +1,5 @@
 # wifiphisher
-This is now available in <a href="https://github.com/rohitadhikari0">I-FISH TOOL</a>
+This is now available in <a href="https://github.com/rohitadhikari0/I-fish">I-FISH TOOL</a>
 That's why you don't need to use this tool because u can find wifiphisher+ more phishing pages there
 Now this tool is copyright goes to I-FISH tool creator because he fixed many problems in this phishing page and changed to © owner rohitadhikari by awesome tech
 
